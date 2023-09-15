@@ -1,0 +1,14 @@
+Create: Dit recht stelt gebruikers in staat om nieuwe tabellen, databases of andere databaseobjecten te maken. Hiermee kunnen ze structurele wijzigingen aanbrengen in de database, zoals het toevoegen van nieuwe gegevenstypen of het definiëren van nieuwe relaties.
+
+Alter: Met dit recht kunnen gebruikers bestaande database-objecten wijzigen, inclusief het toevoegen, verwijderen en wijzigen van kolommen in een tabel, het hernoemen van objecten en het wijzigen van gegevenstypen. Het stelt hen in staat om de structuur van de database te wijzigen zonder bestaande gegevens te verliezen.
+
+Grant: Het toekennen van het recht om andere gebruikers bepaalde rechten te verlenen. Gebruikers met het Grant recht kunnen bepalen welke andere gebruikers toegang hebben tot bepaalde gegevens of functionaliteiten in de database. Dit is met name handig bij het delegeren van beheerstaken binnen een database.
+
+Backup: Het recht om een back-up te maken van de database. Gebruikers met dit recht kunnen een kopie maken van de volledige database of specifieke delen ervan. Dit is cruciaal voor het waarborgen van de gegevensintegriteit en -beschikbaarheid bij mogelijke incidenten of herstelprocedures.
+
+Grant:
+Noodzakelijk wanneer een beheerder bepaalde gebruikers toegang wil geven tot specifieke gegevens of functionaliteiten in de database. Bijvoorbeeld, een beheerder kan een gebruiker het recht verlenen om gegevens uit een bepaalde tabel te lezen, maar niet om deze te wijzigen.
+Een hacker met het Grant recht kan mogelijk ongeautoriseerde toegang verlenen aan andere gebruikers, waardoor zij toegang kunnen krijgen tot gevoelige gegevens of functionaliteiten in de database. Dit kan leiden tot datadiefstal, manipulatie of vernietiging.
+Backup:
+Nodig wanneer een beheerder regelmatig back-ups van de database wil maken om de gegevensintegriteit en -beschikbaarheid te waarborgen. Back-ups worden gebruikt bij het herstellen van gegevens na een incident, zoals systeemstoringen, onopzettelijke gegevensverwijdering of ransomware-aanvallen.
+Een hacker met het Backup recht kan mogelijk toegang krijgen tot de volledige database of specifieke delen ervan via de back-upfunctionaliteit. Hierdoor kan de hacker grote hoeveelheden gevoelige gegevens stelen of deze gegevens gebruiken voor chantage of andere schadelijke doeleinden.
