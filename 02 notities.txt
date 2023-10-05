@@ -1,0 +1,5 @@
+Straatnaam: Hoofdstraat (type: string)
+huisnummer: 37 (type: integer)
+Postcode: 3901AC (type: string)
+Plaats: Utrecht (type: string)
+Land: Nederlands (type: string)
